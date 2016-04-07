@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "tom",
+      "password": "secret",
+      "roles": [
+        "admin"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "json server"
+    },
+    {
+      "id": 2,
+      "title": "web app"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "title": "setup json server repo",
+      "body": "setup json server repository on github",
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "projectId": 2,
+      "title": "setup web app repo",
+      "body": "setup web app repository on github",
+      "status": "todo"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "issueId": 1,
+      "body": ":+1:",
+      "userId": 1
+    }
+  ]
+}
